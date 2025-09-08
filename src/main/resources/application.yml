@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:RegDB
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  batch:
+    job:
+      enabled: false
+    initializeSchema: always   # creates Spring Batch metadata tables
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+
+sharepoint:
+  tenantId: YOUR_TENANT_ID
+  clientId: YOUR_CLIENT_ID
+  clientSecret: YOUR_CLIENT_SECRET
+  siteId: YOUR_SITE_ID
+  driveId: YOUR_DRIVE_ID
+  baseFolder: dockets
+
+job:
+  apiKey: ''
+
+reggov:
+  apiKey: 'DEMO_KEY'
+
+logging:
+  level:
+    root: INFO
+    org.springframework.batch: INFO

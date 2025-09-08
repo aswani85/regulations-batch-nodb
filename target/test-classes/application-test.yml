@@ -1,0 +1,29 @@
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  batch:
+    initialize-schema: always
+
+
+sharepoint:
+  tenantId: YOUR_TENANT_ID
+  clientId: YOUR_CLIENT_ID
+  clientSecret: YOUR_CLIENT_SECRET
+  siteId: YOUR_SITE_ID
+  driveId: YOUR_DRIVE_ID
+  baseFolder: dockets
+
+job:
+  apiKey: ''
+
+reggov:
+  apiKey: 'DEMO_KEY'
+
+logging:
+  level:
+    root: INFO
+    org.springframework.batch: INFO

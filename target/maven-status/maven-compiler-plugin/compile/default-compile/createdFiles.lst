@@ -1,0 +1,11 @@
+com\example\regulationsbatch\processor\CommentsDetailProcessor.class
+com\example\regulationsbatch\config\JobsCommonConfig.class
+com\example\regulationsbatch\RegulationsBatchApplication.class
+com\example\regulationsbatch\util\PdfGenerator.class
+com\example\regulationsbatch\writer\CommentPdfWriter.class
+com\example\regulationsbatch\model\CommentRecord.class
+com\example\regulationsbatch\reader\CommentsByDocketReader.class
+com\example\regulationsbatch\util\RegGovClient.class
+com\example\regulationsbatch\web\CommentsJobRequest.class
+com\example\regulationsbatch\config\CommentsPdfJobConfig.class
+com\example\regulationsbatch\web\JobController.class
